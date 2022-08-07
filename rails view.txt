@@ -1,0 +1,11 @@
+#주석
+routes.rb >controller > view
+
+컨트롤러 생성
+rails generate controller home
+
+
+<% if true %>
+<% post = 'hahaha' %>
+<%= post  %>
+<% end%>
