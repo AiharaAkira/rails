@@ -1,0 +1,24 @@
+def peel_banana(banana)
+	yummy_banana = banana.peel <<<변수 반복문 분기문
+	return yummy_banana
+end
+
+----------------
+
+num = 2
+
+if num%2 ==0
+	puts "even"
+end
+
+def is_even?(number)
+	if number%2 ==0
+		puts "even"
+	else
+		puts"odd"
+	end
+end
+
+is_even?(71)
+#=>odd
+
