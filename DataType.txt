@@ -1,0 +1,8 @@
+1.숫자  1234
+2.문자열 'ㅁㄴㅇ' "ㅁㄴㅇ"
+3.배열 ['ㅁㄴ', 456, 3.14, nil, false]
+4.해시:키/값: colors = {'red' => 'aaaa'}
+	     colors = {red : 'aaaa'}
+
+nil = 아무것도 없다
+true/false = 거짓
