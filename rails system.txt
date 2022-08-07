@@ -1,0 +1,8 @@
+브라우저와 서버
+
+서버(데이터처리) <-TCP-> 브라우저(서버가 보내준 데이터를 자바스크립트, css로 화면에 표시)
+
+routes.rb >> controller >> model >> controller >> view >> 브라우저
+
+서버와 브라우져간 데이터 교환
+
