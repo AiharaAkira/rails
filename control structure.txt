@@ -1,0 +1,78 @@
+if 조건절1
+	조건 1 이 참일때
+elseif 조건2
+	조건 2가 참일때
+else
+	둘다 거짓일때
+end
+
+unless : 만약 ~~가 아니라면
+
+unless 조건절1
+	조건 1이 거짓일때
+else 
+	조건 1이 거짓일때
+end
+(else if 없음)
+
+#짝수인지 판별
+num = 2 
+if nu%2 ==0
+	puts "even"
+else 
+	puts "odd"
+end
+#=>even
+---------------------------
+num = 3 
+if num%2 ==0
+	puts "even"
+else 
+	puts "odd"
+end
+
+#=>odd
+----------------------------
+while : ~~하는 동안
+while 조건
+	조건 참일때 실행
+end
+---------------------------
+num = 0
+while num <= 100
+	if num%2 ==0
+		puts num
+	end
+	num = num +1
+end
+
+---------------------------
+for 변수 in 범위
+	변수에 범위 값이 담겨서 사용 가능한다
+end
+
+for 변수 in 배열
+	변수에 배열 값이 담겨서 사용 가능한다
+end
+
+---------------------------
+
+for x in 0..10
+	put x
+end
+
+for x in 0..100
+	if x%2 ==0
+		put x
+	end
+end
+
+---------------------------
+array = ["hi", "hello", 3]
+for i in array 
+	puts i
+end
+
+#x..y(x부터 y까지)
+#x...y(x초과 y미만)
+---------------------------
