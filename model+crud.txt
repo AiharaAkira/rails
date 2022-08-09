@@ -1,0 +1,8 @@
+마이그레이션
+짧은 문자열 : String
+긴문자열 : text
+숫자 : integer
+참/거짓 : boolean
+
+model만들기:rails generate model post
+테이블생성: rake db:migrate

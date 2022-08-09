@@ -1,0 +1,11 @@
+rails Server
+
+name="id"
+
+params[:id] 
+
+
+post일때 추가
+skip_forgery_protection
+
+get '/result/:first/:second' => 'calculraor#result'	
